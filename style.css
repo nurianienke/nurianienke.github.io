@@ -1,0 +1,82 @@
+body {
+  place-content: center;
+  text-align: center;
+}
+
+.titell{
+  position:absolute;
+  top:24%;
+  left: 6%;
+  font-size: 60px;
+}
+.bg-image{
+  background-image: url("knipsel3.jpg");
+  width:100%;
+  height:100vh;
+  background-size: cover;
+  position: relative;
+}
+.vertical-menu a {
+  background-color: white;
+  color: #62999D;
+  display: inline;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #ADD8E6;
+  color: white;
+}
+.vertical-menu {
+width: 200px;
+}
+
+.vertical-menu a {
+background-color: white;
+color: #62999D;
+display: inline;
+padding: 12px;
+text-decoration: none;
+}
+
+.vertical-menu a:hover {
+background-color: #ccc;
+}
+
+.vertical-menu a.active {
+background-color: #ADD8E6;
+color: white;
+}
+
+*{
+padding: 0;
+margin: 0;
+text-decoration: 0;
+list-style: 0;
+family-font: ;
+}
+.balk{
+family-font: Georgia;
+background: Pink;
+height: 100px;
+width: 100%;
+position: absolute;
+top: 0%;
+}
+
+.balk ul li{
+display: inline-block;
+line-height: 60px;
+margin: 0 5px;
+}
+
+.balk ul li a{
+color: Blue;
+font-size: 22px;
+text-transform: uppercase;
+}

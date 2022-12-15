@@ -1,0 +1,92 @@
+*{
+padding: 0;
+margin: 0;
+text-decoration: 0;
+list-style: 0;
+box-sizing: border-box;
+family-font: ;
+}
+
+.balk{
+family-font: Georgia;
+background-color: Pink;
+heigt: 50px;
+width: 100%;
+z-index: 2;
+}
+
+.balk ul{
+float: right;
+margin-right: 500px;
+}
+
+.balk ul li{
+display: inline-block;
+line-height: 80px;
+margin: 2px;
+}
+
+.balk ul li a{
+color: white;
+font-size: 26px;
+text-transform: uppercase;
+}
+
+.balk li {
+  display: inline-block;
+  padding-right: 30px;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 25px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #de4c8a;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: pink;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: 0.2rem solid #de4c8a;
+
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;0
+  text-align: left;
+  font-size: 15px;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+tabel {
+  text-align: center;
+}
